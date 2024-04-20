@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IconB.ico" />
+    <None Remove="IconN.ico" />
+    <None Remove="IconR.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="IconB.ico" />
+    <Resource Include="IconN.ico" />
+    <Resource Include="IconR.ico" />
+  </ItemGroup>
+
+</Project>
